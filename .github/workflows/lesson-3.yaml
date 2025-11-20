@@ -22,7 +22,7 @@ jobs:
   function-test:
     runs-on: ubuntu-latest
     defaults:
-      runs:
+      run:
         working-directory: frontend
     steps:
       - uses: actions/checkout@v4
